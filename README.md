@@ -6,7 +6,7 @@
 
 Running instructions:
 
-1. Make sure to replace the reportId and groupId variables with your specific report and group ids.
+1. Replace the reportId and groupId variables in `report.component.ts` with your specific report and group ids.
 2. When running the application, use the following command to avoid CORS issues.
 
-`ng serve --proxyConfig=proxy.conf.json`
+      `ng serve --proxyConfig=proxy.conf.json`
